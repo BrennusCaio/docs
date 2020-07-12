@@ -2,6 +2,13 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/icone.png' }]
     ],
+    markdown: {
+        // options for markdown-it-anchor
+        anchor: { permalink: false },
+        extendMarkdown: md => {
+          md.use(require("markdown-it-katex"));
+        }
+    },
     title: "Docs Egua",
     description: "Documentação dos módulos, ferramentas e linguagem do Egua",
     themeConfig: {
