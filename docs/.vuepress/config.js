@@ -1,6 +1,6 @@
 module.exports = {
     head: [
-        ['link', { rel: 'icon', href: '/images/icone.png' }]       
+        ['link', { rel: 'icon', href: '/images/icone.png' }],       
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }]   
     ],
     markdown: {
