@@ -9,7 +9,7 @@ Retorna o valor da velocidade média a partir dos valores de entrada da distânc
 ```
 vmed(distância,tempo)
 ```
-$$vmed = \frac{Distância}{Tempo}$$
+$$ vmed = \frac{Distância}{Tempo} $$
 
 ## Espaço percorrido 
 Retorna o espaço percorrido baseado na diferença do Espaço Final pelo Espaço Inicial.
