@@ -11,6 +11,17 @@ module.exports = {
           md.use(require("markdown-it-katex"));
         }
     },
+    plugins: [
+        [
+          'vuepress-plugin-mathjax',
+          {
+            target: 'svg',
+            macros: {
+              '*': '\\times',
+            },
+          },
+        ],
+      ],
     title: "Docs Egua",
     description: "Documentação dos módulos, ferramentas e linguagem do Egua",
     themeConfig: {
