@@ -10,3 +10,5 @@ deploy:
   local_dir: docs/.vuepress/dist
   github_token: $GITHUB_TOKEN 
   keep_history: true
+mathjax:
+  presets: '\def\lr#1#2#3{\left#1#2\right#3}'
