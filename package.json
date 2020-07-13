@@ -6,6 +6,7 @@
     "vuepress": "^1.4.1"
   },
   "dependencies": {
-    "markdown-it-katex": "^2.0.3"
+    "markdown-it-katex": "^2.0.3",
+    "vuepress-plugin-mathjax": "^1.2.8"
   }
 }
