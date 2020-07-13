@@ -10,7 +10,7 @@ module.exports = {
         extendMarkdown: md => {
           md.use(require("markdown-it-katex"));
         }
-    },
+    }
     plugins: [
         [
           'vuepress-plugin-mathjax',
