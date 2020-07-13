@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/icone.png' }],
         ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
-	    ['link', {href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel :'stylesheet'}]
+        ['link', { rel :'stylesheet', href: 'https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css'}]      
     ],
     markdown: {
         // options for markdown-it-anchor
