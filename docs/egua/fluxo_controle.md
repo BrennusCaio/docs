@@ -197,7 +197,7 @@ tente {
 
 ## Ordenação
 
-O Egua fornece a função ordenar para realizar a ordenação de ordem crescente dos valores.
+O Egua fornece a função "ordenar()" para realizar a ordenação de ordem crescente dos valores.
 
 ```js
 var vetorNomes = ["Lucas", "Heictor", "Julio", "Brennus", "Arleson"];
