@@ -194,3 +194,18 @@ tente {
   escreva("pronto");
 }
 ```
+
+## Ordenação
+
+O Egua fornece a função ordenar para realizar a ordenação de ordem crescente dos valores.
+
+```js
+var vetorNomes = ["Lucas", "Heictor", "Julio", "Brennus", "Arleson"];
+var vetorNumeros = [1, 2, 6, 7, 3, 4];
+
+vetorNomes = organizar(vetorNomes);
+escreva(vetorNomes);
+
+vetorNumeros = organizar(vetorNumeros);
+escreva(vetorNumeros);
+```
